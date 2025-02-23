@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
     res.send("Welcome to Horse API")
   });
 
-
 app.listen(port, () => {
   console.log(`Horse API listening on port ${port}`);
 });
